@@ -3,7 +3,7 @@ import sys
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-server_address = ('', 9434)
+server_address = ('', 1337)
 
 sock.bind(server_address)
 
