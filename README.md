@@ -12,7 +12,7 @@ On the client machine:
 python3 ip_disc_client.py
 ```
 
-The server will now listen for UDP broadcasts on port 9434. The client sends UDP packets to 255.255.255.255, which are broadcast across the network. The server then responds to the client, allowing the client to deduce the server's IP address.
+The server will now listen for UDP broadcasts on port 1337. The client sends UDP packets to 255.255.255.255, which are broadcast across the network. The server then responds to the client, allowing the client to deduce the server's IP address.
 
 The .bat file can be used to run the server discovery script on windows systems. Please note that Python 3.x must be installed and the script must be run with administrator privileges.
 
